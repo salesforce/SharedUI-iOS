@@ -165,7 +165,7 @@ All SharedUI components are built with accessibility as a priority:
 
 ## 📄 License
 
-SharedUI is available under the terms specified in the [TERMS OF USE](TERMS%20OF%20USE) file.
+SharedUI is available under the terms specified in the [TERMS_OF_USE.txt](TERMS_OF_USE.txt) file.
 
 Copyright 2026 Salesforce, Inc. All rights reserved.
 
@@ -182,4 +182,4 @@ For Salesforce employees: Please refer to internal documentation for contributio
 
 ---
 
-**Note**: This library is provided as-is for use in mobile applications. See the TERMS OF USE for complete details on usage, warranty, and liability.
+**Note**: This library is provided as-is for use in mobile applications. See the TERMS_OF_USE.txt for complete details on usage, warranty, and liability.
