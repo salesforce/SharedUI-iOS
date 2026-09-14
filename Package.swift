@@ -23,13 +23,13 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/salesforce/SLDSIcons-iOS.git", from: "1.2.5"),
+        .package(url: "https://github.com/salesforce/SLDSIcons-iOS.git", from: "1.2.7"),
     ],
     targets: [
         .binaryTarget(
             name: "SharedUI",
-            url: "https://github.com/salesforce/SharedUI-iOS/releases/download/1.5.6/SharedUI.xcframework.zip",
-            checksum: "fe38f77bc4f72ae94d927991299a64672e915386d09db31efad02cdbfb959caa"
+            url: "https://github.com/salesforce/SharedUI-iOS/releases/download/1.6.2/SharedUI.xcframework.zip",
+            checksum: "2d4b9b5cc2187e57f139d99e5d925966de57a75165e0a75f2bc3b64d60c54c36"
         ),
         .target(
             name: "SharedUITarget",
@@ -39,6 +39,5 @@ let package = Package(
             ],
             path: "Sources/SharedUITarget"
         ),
-    ],
-    swiftLanguageVersions: [.v5]
+    ]
 )
