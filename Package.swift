@@ -28,8 +28,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SharedUI",
-            url: "https://github.com/salesforce/SharedUI-iOS/releases/download/1.6.10/SharedUI.xcframework.zip",
-            checksum: "1b9e8eb08682f137248c90a435c1e746f4e1beeab3a58a0445bfe3978fca0937"
+            url: "https://github.com/salesforce/SharedUI-iOS/releases/download/1.6.14/SharedUI.xcframework.zip",
+            checksum: "fe583b40be074770575a873fa5208f09528c00d5f98dae105144565e5ed16948"
         ),
         .target(
             name: "SharedUITarget",
